@@ -27,8 +27,21 @@ namespace Assignment
 
             //var result = Arr.Where(x =>x>5).ElementAt(1);
             //Console.WriteLine(result);
-            
+
             #endregion
+
+            #region q4 : 1. Uses Count to get the number of odd numbers in the array
+
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var result =Arr.Count(x=>x%2!=0);
+            //Console.WriteLine(result);
+
+
+            #endregion
+
+
+
         }
     }
 }
