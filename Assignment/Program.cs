@@ -20,6 +20,15 @@ namespace Assignment
             //var result = ProductList.FirstOrDefault(x => x.UnitsInStock > 1000);
             //Console.WriteLine(result?.ProductName ?? "there is no match");
             #endregion
+
+            #region q3 : 3. Retrieve the second number greater than 5 
+
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var result = Arr.Where(x =>x>5).ElementAt(1);
+            //Console.WriteLine(result);
+            
+            #endregion
         }
     }
 }
