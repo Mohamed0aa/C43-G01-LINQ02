@@ -12,7 +12,14 @@ namespace Assignment
 
             #endregion
 
-            
+            #region q2 : 2. Return the first product whose Price > 1000, unless there is no match, in which case null is returned.
+
+            //var result = ProductList.FirstOrDefault(x => x.UnitsInStock > 1000, new Product {ProductName= "there is no match" });
+            //Console.WriteLine(result.ProductName);
+
+            //var result = ProductList.FirstOrDefault(x => x.UnitsInStock > 1000);
+            //Console.WriteLine(result?.ProductName ?? "there is no match");
+            #endregion
         }
     }
 }
