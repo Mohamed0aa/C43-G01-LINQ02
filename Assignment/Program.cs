@@ -30,7 +30,7 @@ namespace Assignment
 
             #endregion
 
-            #region q4 : 1. Uses Count to get the number of odd numbers in the array
+            #region q4 : 4. Uses Count to get the number of odd numbers in the array
 
             //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
@@ -38,8 +38,28 @@ namespace Assignment
             //Console.WriteLine(result);
 
 
+
+
             #endregion
 
+            #region q5 : 5. Return a list of customers and how many orders each has
+            ////fluent
+            
+            //var result = CustomerList.Select(x => new { x.CustomerName, Orders_Nums = x.Orders.Length });
+
+            
+            ////Query_Sentax
+            
+            //var result = from x in CustomerList
+            //             select new { x.CustomerName, Orders_Nums = x.Orders.Length };
+
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
 
 
         }
