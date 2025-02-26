@@ -1,4 +1,5 @@
-﻿using static Assignment.ListGenerators;
+﻿using System.Text.RegularExpressions;
+using static Assignment.ListGenerators;
 namespace Assignment
 {
     internal class Program
@@ -151,8 +152,26 @@ namespace Assignment
 
             #region q13 : Get the cheapest price among each category's products
 
-            //var result =ProductList.Min(x=>x.UnitPrice);
+            //var result = ProductList.Min(x => x.UnitPrice);
             //Console.WriteLine(result);
+            #endregion
+
+
+            #region q14 : Get the products with the cheapest price in each category (Use Let)
+            //var result = ProductList.GroupBy(p => p.Category)
+            //                    .Select(p => new { Cat = p.Key, cheapest_product = p.Min(x => x.UnitPrice) });
+
+
+            //result = from p in ProductList
+            //         group p by p.Category into cc
+            //         let c=cc
+            //         select  new { Cat = c.Key, cheapest_product = c.Min(x => x.UnitPrice) };
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
             #endregion
 
 
