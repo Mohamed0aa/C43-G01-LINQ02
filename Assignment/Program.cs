@@ -175,6 +175,26 @@ namespace Assignment
             #endregion
 
 
+            #region q15 : Get the most expensive price among each category's products.
+            //var result = ProductList.GroupBy(p => p.Category)
+            //                    .Select(p => new { Cat = p.Key, expensive_product = p.Max(x => x.UnitPrice) });
+
+
+            //result = from p in ProductList
+            //         group p by p.Category into cc
+            //         let c=cc
+            //         select  new { Cat = c.Key, expensive_product = c.Max(x => x.UnitPrice) };
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
+
+            #endregion
+
+
+
 
 
 
