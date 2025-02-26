@@ -149,6 +149,12 @@ namespace Assignment
             //}
             #endregion
 
+            #region q13 : Get the cheapest price among each category's products
+
+            //var result =ProductList.Min(x=>x.UnitPrice);
+            //Console.WriteLine(result);
+            #endregion
+
 
 
 
