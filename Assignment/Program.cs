@@ -64,23 +64,26 @@ namespace Assignment
             #region q6 :  Return a list of categories and how many products each has
 
             //fluent 
-            //var result = ProductList.GroupBy(x => x.Category).Select(y =>$"{y.Key} => {y.Count()}")
+            //var result = ProductList.GroupBy(x => x.Category).Select(y => new { cat_name = y.Key, product_num = y.Count() });
 
-            ////query Syntacx
-            //var result = from p in ProductList
-            //             group p by p.Category
-            //            into cat
-            //            select  $"{cat.Key} => {cat.Count()}" ;
-                        
+                        ////query Syntacx
+                        //var result = from p in ProductList
+                        //             group p by p.Category
+                        //            into cat
+                        //            select  $"{cat.Key} => {cat.Count()}" ;
+
 
                         ;
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
-                
+
             //}
             #endregion
+
+
             
+
 
 
         }
