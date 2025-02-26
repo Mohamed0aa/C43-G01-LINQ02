@@ -212,7 +212,26 @@ namespace Assignment
             #endregion
 
 
-            
+            #region q17 : Get the average price of each category's products
+            //var result = ProductList.GroupBy(p => p.Category)
+            //                    .Select(p => new { Cat = p.Key, average_price = p.Average(x => x.UnitPrice) });
+
+
+            //result = from p in ProductList
+            //         group p by p.Category into cc
+            //         let c = cc
+            //         select new { Cat = c.Key, average_price = c.Average(x => x.UnitPrice) };
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
+            #endregion
+
+
+           
+
 
 
 
