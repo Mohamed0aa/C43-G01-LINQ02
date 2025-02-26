@@ -44,12 +44,12 @@ namespace Assignment
 
             #region q5 : 5. Return a list of customers and how many orders each has
             ////fluent
-            
+
             //var result = CustomerList.Select(x => new { x.CustomerName, Orders_Nums = x.Orders.Length });
 
-            
+
             ////Query_Sentax
-            
+
             //var result = from x in CustomerList
             //             select new { x.CustomerName, Orders_Nums = x.Orders.Length };
 
@@ -60,6 +60,27 @@ namespace Assignment
             //}
 
             #endregion
+
+            #region q6 :  Return a list of categories and how many products each has
+
+            //fluent 
+            //var result = ProductList.GroupBy(x => x.Category).Select(y =>$"{y.Key} => {y.Count()}")
+
+            ////query Syntacx
+            //var result = from p in ProductList
+            //             group p by p.Category
+            //            into cat
+            //            select  $"{cat.Key} => {cat.Count()}" ;
+                        
+
+                        ;
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+                
+            //}
+            #endregion
+            
 
 
         }
