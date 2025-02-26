@@ -129,6 +129,26 @@ namespace Assignment
             //Console.WriteLine(result);
             #endregion
 
+            #region q12 : . Get the total units in stock for each product category.
+
+            ////fluent
+            //var result = ProductList.GroupBy(x => x.Category)
+            //                .Select(y => new { Cat = y.Key, Total = y.Sum(cc => cc.UnitsInStock) });
+
+
+            ////query_syntax
+            //result = from p in ProductList
+            //         group p by p.Category
+            //        into y
+            //         select new { Cat = y.Key, Total = y.Sum(cc => cc.UnitsInStock) };
+
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
 
 
 
