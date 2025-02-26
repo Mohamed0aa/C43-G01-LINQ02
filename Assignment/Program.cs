@@ -96,12 +96,21 @@ namespace Assignment
             #region q8 : Get the total number of characters of all words in dictionary_english.txt (Read dictionary_english.txt into Array of String First).
 
             //string[] names = File.ReadAllLines("dictionary_english.txt");
-            
+
 
             //var result = names.Sum(n =>n.Count());
 
             //Console.WriteLine(result);
-            
+
+            #endregion
+
+
+            #region q9 : Get the length of the shortest word in dictionary_english.txt (Read dictionary_english.txt into Array of String First).
+            //string[] names = File.ReadAllLines("dictionary_english.txt");
+
+            //var result = names.Min(n => n.Length);
+
+            //Console.WriteLine(result);
             #endregion
 
 
