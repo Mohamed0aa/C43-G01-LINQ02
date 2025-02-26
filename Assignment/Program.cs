@@ -230,7 +230,16 @@ namespace Assignment
             #endregion
 
 
-           
+            #region 18 : Sort a list of products by name
+
+            //var result = ProductList.OrderBy(x => x.ProductName);
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item.ProductName);
+
+            //}
+            #endregion
 
 
 
