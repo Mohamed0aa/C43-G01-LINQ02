@@ -121,7 +121,13 @@ namespace Assignment
             //Console.WriteLine(result);
             #endregion
 
-            
+            #region  q11 : Get the average length of the words in dictionary_english.txt (Read dictionary_english.txt into Array of String First).
+            //string[] names = File.ReadAllLines("dictionary_english.txt");
+
+            //var result = names.Average(n => n.Length);
+
+            //Console.WriteLine(result);
+            #endregion
 
 
 
