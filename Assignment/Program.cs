@@ -113,6 +113,18 @@ namespace Assignment
             //Console.WriteLine(result);
             #endregion
 
+            #region q10 : . Get the length of the longest word in dictionary_english.txt (Read dictionary_english.txt into Array of String First).
+            //string[] names = File.ReadAllLines("dictionary_english.txt");
+
+            //var result = names.Max(n => n.Length);
+
+            //Console.WriteLine(result);
+            #endregion
+
+            
+
+
+
 
 
 
