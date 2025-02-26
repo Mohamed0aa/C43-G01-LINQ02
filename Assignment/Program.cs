@@ -81,8 +81,31 @@ namespace Assignment
             //}
             #endregion
 
+            #region q7 : Get the total of the numbers in an array.
 
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            ////fluent 
+            //var sum = Arr.Sum();
+
+
+            //Console.WriteLine(sum);
+            #endregion
+
+
+            #region q8 : Get the total number of characters of all words in dictionary_english.txt (Read dictionary_english.txt into Array of String First).
+
+            //string[] names = File.ReadAllLines("dictionary_english.txt");
             
+
+            //var result = names.Sum(n =>n.Count());
+
+            //Console.WriteLine(result);
+            
+            #endregion
+
+
+
 
 
 
